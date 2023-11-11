@@ -53,15 +53,15 @@
             <!-- ============================================================== -->
             <!-- Start Page Content here -->
             <!-- ============================================================== -->
-
+<!-- 
             <div class="content-page">
-                <div class="content">
+                <div class="content"> -->
 
                     <!-- Start Content-->
-                    <div class="container-fluid">
-                        
+                    <!-- <div class="container-fluid">
+                         -->
                         <!-- start page title -->
-                        <div class="row">
+                        <!-- <div class="row">
                             <div class="col-12">
                                 <div class="page-title-box">
                                     <div class="page-title-right">
@@ -70,20 +70,20 @@
                                             <li class="breadcrumb-item"><a href="javascript: void(0);">Pharmaceuticals</a></li>
                                             <li class="breadcrumb-item active">Add Pharmaceutical Category</li>
                                         </ol>
-                                    </div>
-                                    <h4 class="page-title">Create A Pharmaceutical Category</h4>
+                                    </div> -->
+                                    <!-- <h4 class="page-title">Create A Pharmaceutical Category</h4>
                                 </div>
                             </div>
-                        </div>     
+                        </div>      -->
                         <!-- end page title --> 
                         <!-- Form row -->
-                        <div class="row">
+                        <!-- <div class="row">
                             <div class="col-12">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h4 class="header-title">Fill all fields</h4>
+                                        <h4 class="header-title">Fill all fields</h4> -->
                                         <!--Add Patient Form-->
-                                        <form method="post">
+                                        <!-- <form method="post">
                                             <div class="form-row">
                                                 <div class="form-group col-md-6">
                                                     <label for="inputEmail4" class="col-form-label">Pharmaceutical Category Name</label>
@@ -92,22 +92,9 @@
 
                                                 <div class="form-group col-md-6">
                                                     <label for="inputState" class="col-form-label">Pharmaceutical Vendor</label>
-                                                    <select id="inputState" required="required" name="pharm_cat_vendor" class="form-control">
-                                                    <?php
+                                                    <select id="inputState" required="required" name="pharm_cat_vendor" class="form-control"> -->
                                                     
-                                                        $ret="SELECT * FROM  his_vendor ORDER BY RAND() "; 
-                                                        //sql code to get to ten docs  randomly
-                                                        $stmt= $mysqli->prepare($ret) ;
-                                                        $stmt->execute() ;//ok
-                                                        $res=$stmt->get_result();
-                                                        $cnt=1;
-                                                        while($row=$res->fetch_object())
-                                                        {
-                                                            //$mysqlDateTime = $row->s_pat_date;
-                                                    ?>
-                                                        <option><?php echo $row->v_name;?></option>
-
-                                                    <?php }?>   
+<!--                                                        
                                                     </select>
                                                 </div>
 
@@ -116,21 +103,21 @@
                                             <div class="form-group">
                                                 <label for="inputAddress" class="col-form-label">Pharmaceutical Category Description</label>
                                                 <textarea required="required" type="text" class="form-control" name="pharm_cat_desc" id="editor"></textarea>
-                                            </div>
+                                            </div> -->
 
-                                           <button type="submit" name="add_pharmaceutical_category" class="ladda-button btn btn-success" data-style="expand-right">Add Category</button>
+                                           <!-- <button type="submit" name="add_pharmaceutical_category" class="ladda-button btn btn-success" data-style="expand-right">Add Category</button>
 
                                         </form>
                                      
-                                    </div> <!-- end card-body -->
-                                </div> <!-- end card-->
-                            </div> <!-- end col -->
-                        </div>
+                                    </div> end card-body -->
+                                <!-- </div> end card -->
+                            <!-- </div>end col -->
+                        <!-- </div>  -->
                         <!-- end row -->
 
-                    </div> <!-- container -->
+                    <!-- </div> container -->
 
-                </div> <!-- content -->
+                <!-- </div> content -->
 
                 <!-- Footer Start -->
                 <?php include('assets/inc/footer.php');?>

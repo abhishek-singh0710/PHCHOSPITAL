@@ -76,84 +76,12 @@
                                     </div> <!-- end row-->
                                 </div> <!-- end widget-rounded-circle-->
                             </div> <!-- end col-->
-                            <!--End Out Patients-->
 
-
-                            <!--Start InPatients-->
-                            <div class="col-md-6 col-xl-4">
-                                <div class="widget-rounded-circle card-box">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <div class="avatar-lg rounded-circle bg-soft-danger border-danger border">
-                                                <i class="mdi mdi-flask font-22 avatar-title text-danger"></i>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="text-right">
-                                                <?php
-                                                    /* 
-                                                     * code for summing up number of assets,
-                                                     */ 
-                                                    $result ="SELECT count(*) FROM his_equipments ";
-                                                    $stmt = $mysqli->prepare($result);
-                                                    $stmt->execute();
-                                                    $stmt->bind_result($assets);
-                                                    $stmt->fetch();
-                                                    $stmt->close();
-                                                ?>
-                                                <h3 class="text-dark mt-1"><span data-plugin="counterup"><?php echo $assets;?></span></h3>
-                                                <p class="text-muted mb-1 text-truncate">Corporation Assets</p>
-                                            </div>
-                                        </div>
-                                    </div> <!-- end row-->
-                                </div> <!-- end widget-rounded-circle-->
-                            </div>
-                            <!--End InPatients-->
-
-                            <!-- Start Pharmaceuticals-->
-                            <!-- <div class="col-md-6 col-xl-4">
-                                <div class="widget-rounded-circle card-box">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <div class="avatar-lg rounded-circle bg-soft-danger border-danger border">
-                                                <i class="mdi mdi-pill font-22 avatar-title text-danger"></i>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="text-right">
-
-
-                                                 // HERE START PHP < QUESTION MARK php
-
-
-                                                    /* 
-                                                     * code for summing up number of pharmaceuticals,
-                                                     */ 
-                                                    // $result ="SELECT count(*) FROM his_pharmaceuticals ";
-                                                    // $stmt = $mysqli->prepare($result);
-                                                    // $stmt->execute();
-                                                    // $stmt->bind_result($phar);
-                                                    // $stmt->fetch();
-                                                    // $stmt->close();
-                                                // ?>
-                                                <h3 class="text-dark mt-1"><span data-plugin="counterup">
-                                                  
-                                                </span></h3>
-                                                <p class="text-muted mb-1 text-truncate">Pharmaceuticals</p>
-                                            </div>
-                                        </div>
-                                    </div>end row -->
-                                <!-- </div> end widget-rounded-circle -->
-                            <!-- </div> end col -->
-                            <!--End Pharmaceuticals -->
-                        
-                        <!-- </div> -->
-
-                        <div class="row">
+                        <!-- <div class="row"> -->
 
                         <!--Start Vendors-->
                        
-                            <div class="col-md-6 col-xl-6">
+                            <div class="col-md-6 col-xl-5">
                                 <a href="his_doc_account.php">
                                     <div class="widget-rounded-circle card-box">
                                         <div class="row">
@@ -172,31 +100,7 @@
                                     </div>
                                 </a> <!-- end widget-rounded-circle-->
                             </div> 
-                           <!-- end col--> 
-                            <!--End Vendors-->  
-
-                            <!--Start Corporation Assets-->
-                            <!-- <div class="col-md-6 col-xl-6">
-                                <a href="his_doc_view_payrolls.php">
-                                    <div class="widget-rounded-circle card-box">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <div class="avatar-lg rounded-circle bg-soft-danger border-danger border">
-                                                    <i class="mdi mdi-flask font-22 avatar-title text-danger"></i>
-                                                </div>
-                                            </div>
-                                            <div class="col-6">
-                                                <div class="text-right">
-                                                    <h3 class="text-dark mt-1"></span></h3>
-                                                    <p class="text-muted mb-1 text-truncate">My Payroll</p>
-                                                </div>
-                                            </div>
-                                        </div> <!-- end row-->
-                                    <!-- </div> -->
-                                <!-- </a>     end widget-rounded-circle -->
-                            <!-- </div> end col --> -->
-                            <!--End Corporation Assets-->
-                        </div>
+                        <!-- </div> -->
                         
 
                         

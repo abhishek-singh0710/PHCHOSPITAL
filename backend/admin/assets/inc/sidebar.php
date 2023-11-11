@@ -30,7 +30,7 @@
                                     <li>
                                         <a href="his_admin_view_patients.php">View Patients</a>
                                     </li>
-                                    <li>
+                                    <!-- <li>
                                         <a href="his_admin_manage_patient.php">Manage Patients</a>
                                     </li>
                                     <hr>
@@ -39,7 +39,7 @@
                                     </li>
                                     <li>
                                         <a href="his_admin_patient_transfer.php">Patient Transfers</a>
-                                    </li>
+                                    </li> -->
                                 </ul>
                             </li>
 
@@ -56,7 +56,7 @@
                                     <li>
                                         <a href="his_admin_view_employee.php">View Employees</a>
                                     </li>
-                                    <li>
+                                    <!-- <li>
                                         <a href="his_admin_manage_employee.php">Manage Employees</a>
                                     </li>
                                     <hr>
@@ -65,11 +65,11 @@
                                     </li>
                                     <li>
                                         <a href="his_admin_transfer_employee.php">Transfer Employee</a>
-                                    </li>
+                                    </li> -->
                                 </ul>
                             </li>
 
-                            <li>
+                            <!-- <li>
                                 <a href="javascript: void(0);">
                                     <i class="mdi mdi-pill"></i>
                                     <span> Pharmacy </span>
@@ -150,9 +150,9 @@
                                     </li>
                                     
                                 </ul>
-                            </li>
+                            </li> -->
                 
-                            <li>
+                            <!-- <li>
                                 <a href="javascript: void(0);">
                                     <i class="fe-share"></i>
                                     <span> Reporting </span>
@@ -179,9 +179,9 @@
                                     </li>
                                     
                                 </ul>
-                            </li>
+                            </li> -->
 
-                            <li>
+                            <!-- <li>
                                 <a href="javascript: void(0);">
                                     <i class="fe-file-text"></i>
                                     <span> Medical Records </span>
@@ -196,9 +196,9 @@
                                     </li>
                                     
                                 </ul>
-                            </li>
+                            </li> -->
 
-                            <li>
+                            <!-- <li>
                                 <a href="javascript: void(0);">
                                     <i class="mdi mdi-flask"></i>
                                     <span> Laboratory </span>
@@ -228,9 +228,9 @@
                                         <a href="his_admin_manage_lab_equipment.php">Manage Lab Equipments</a>
                                     </li>
                                 </ul>
-                            </li>
+                            </li> -->
 
-                            <li>
+                            <!-- <li>
                                 <a href="javascript: void(0);">
                                     <i class="mdi mdi-scissors-cutting "></i>
                                     <span> Surgical / Theatre </span>
@@ -254,9 +254,9 @@
                                         <a href="his_admin_surgery_records.php">Surgery Records</a>
                                     </li>
                                 </ul>
-                            </li>
+                            </li> -->
 
-                            <li>
+                            <!-- <li>
                                 <a href="javascript: void(0);">
                                     <i class="mdi mdi-cash-refund "></i>
                                     <span> Payrolls </span>
@@ -273,9 +273,9 @@
                                         <a href="his_admin_generate_payrolls.php">Generate Payrolls</a>
                                     </li>
                                 </ul>
-                            </li>
+                            </li> -->
 
-                            <li>
+                            <!-- <li>
                                 <a href="javascript: void(0);">
                                     <i class="fas fa-user-tag"></i>
                                     <span> Vendors </span>
@@ -290,8 +290,8 @@
                                     </li>
                                     
                                 </ul>
-                            </li>
-                            <li>
+                            </li> -->
+                            <!-- <li>
                                 <a href="javascript: void(0);">
                                     <i class="fas fa-lock"></i>
                                     <span> Password Resets </span>
@@ -303,7 +303,7 @@
                                     </li>
                                                                         
                                 </ul>
-                            </li>
+                            </li> -->
 
                         </ul>
 

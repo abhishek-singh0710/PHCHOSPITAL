@@ -30,7 +30,10 @@
             <div class="container">
                 <div class="row align-items-center justify-content-between d-flex">
                 <div id="logo">
-                    <a href="index.php"></a>
+                    <a href="index.php">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/1/18/Iiitdmj-logo.jpg" height="60"/>
+                        <span><h2>Primary Health Center <h3>IIITDM JABALPUR</h3></h2></span>
+                    </a>
                 </div>
                 <nav id="nav-menu-container">
                     <ul class="nav-menu">

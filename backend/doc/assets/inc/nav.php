@@ -13,7 +13,7 @@
     <div class="navbar-custom">
         <ul class="list-unstyled topnav-menu float-right mb-0">
 
-            <li class="d-none d-sm-block">
+            <!-- <li class="d-none d-sm-block">
                 <form class="app-search">
                     <div class="app-search-box">
                         <div class="input-group">
@@ -26,7 +26,7 @@
                         </div>
                     </div>
                 </form>
-            </li>
+            </li> -->
 
             
             <li class="dropdown notification-list">
@@ -50,7 +50,7 @@
 
                     <a href="his_doc_update-account.php" class="dropdown-item notify-item">
                         <i class="fas fa-user-tag"></i>
-                        <span>Update Account</span>
+                        <span>Profile</span>
                     </a>
 
 
@@ -73,14 +73,12 @@
         <div class="logo-box">
             <a href="his_admin_dashboard.php" class="logo text-center">
                 <span class="logo-lg">
-                    <!-- <img src="assets/images/logo-light.png" alt="" height="18"> -->
-                    <h3>Primary Health Center</h3>
+                    <img src="https://upload.wikimedia.org/wikipedia/en/1/18/Iiitdmj-logo.jpg" alt="" height="65" width="65">
                     <!-- <span class="logo-lg-text-light">UBold</span> -->
                 </span>
                 <span class="logo-sm">
                     <!-- <span class="logo-sm-text-dark">U</span> -->
-                    <!-- <img src="assets/images/logo-sm-white.png" alt="" height="24"> -->
-                    <h4>Primary Health Center</h1>
+                    <img src="https://upload.wikimedia.org/wikipedia/en/1/18/Iiitdmj-logo.jpg" alt="" height="24">
                 </span>
             </a>
         </div>
@@ -109,10 +107,10 @@
 
 
                     <!-- item-->
-                    <a href="his_doc_lab_report.php" class="dropdown-item">
+                    <!-- <a href="his_doc_lab_report.php" class="dropdown-item">
                         <i class="fe-hard-drive mr-1"></i>
                         <span>Laboratory Report</span>
-                    </a>
+                    </a> -->
 
                     
                     <div class="dropdown-divider"></div>

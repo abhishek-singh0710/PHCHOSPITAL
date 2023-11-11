@@ -30,7 +30,7 @@
                                     <li>
                                         <a href="his_doc_view_patients.php">View Patients</a>
                                     </li>
-                                    <li>
+                                    <!-- <li>
                                         <a href="his_doc_manage_patient.php">Manage Patients</a>
                                     </li>
                                     <hr>
@@ -39,7 +39,7 @@
                                     </li>
                                     <li>
                                         <a href="his_doc_patient_transfer.php">Patient Transfers</a>
-                                    </li>
+                                    </li> -->
                                 </ul>
                             </li>
 
